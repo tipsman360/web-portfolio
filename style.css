@@ -22,8 +22,22 @@ h1{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    border: 2px dashed salmon;
+    border: 2px solid white;
 }
 section{
     height: 500px;
+    padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.middle-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+background-position: right;
 }

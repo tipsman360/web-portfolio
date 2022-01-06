@@ -41,3 +41,10 @@ section{
     background-repeat: no-repeat;
 background-position: right;
 }
+.experience-highlight{
+    color: violet;
+}
+
+.single-experience{
+    border: 10px 20px;
+}

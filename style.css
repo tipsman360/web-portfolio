@@ -75,4 +75,18 @@ background-position: right;
 }
 footer p{
     text-align: center;
+    color: white;
+}
+.footer-bottom{
+    height: 10px;
+    border-top:5px solid;
+    border-image: linear-gradient(180deg, #5905f5,tomato);
+    border-image-slice: 1;
+    background-color: black;
+}
+.nav-footer{
+    width:25% ;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }

@@ -52,7 +52,14 @@ background-position: right;
 .single-experience{
     box-shadow: 10px 20px 40px grey;
     border-radius: 5px;
-    height: 60%;
+    height: 40%;
+    
+}
+.single-experience h2{
+    text-align: center;
+}
+.single-experience h3{
+    text-align: center;
 }
 .experience
 {
@@ -86,21 +93,22 @@ footer h3{
     color: white;
 }
 .footer-bottom{
-    height: 180px;
+    height: 250px;
     border-top:5px solid;
     border-image: linear-gradient(180deg, #5905f5,tomato);
     border-image-slice: 1;
     background-color: black;
 }
+
 .nav-footer{
-    width:25% ;
+    width:26% ;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 
 .header{
-    height: 100 px;
+    height: 80 px;
     border-top:5px solid;
     border-image: linear-gradient(180deg, #5905f5,tomato);
     border-bottom:5px solid;
@@ -112,5 +120,37 @@ header h3
 {
     color: white;text-align: center;
 }
+.blog{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 1px;
+}
+footer h4{
+    color: white;
+    text-align: center;
+}
+fieldset{
+    background-color: transparent;
 
-
+    
+}
+fieldset h5{
+    color: white;
+}
+fieldset legend{
+    color: white;
+}
+.Rate{
+    color: green;
+}
+label p{
+    color: white;
+    align-self: center;
+}
+textarea{
+    height: 50px;
+}
+.sub{
+    text-align: center;
+ 
+}

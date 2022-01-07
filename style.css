@@ -77,8 +77,16 @@ footer p{
     text-align: center;
     color: white;
 }
+footer h2{
+    text-align: center;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    color: white;
+}
 .footer-bottom{
-    height: 10px;
+    height: 180px;
     border-top:5px solid;
     border-image: linear-gradient(180deg, #5905f5,tomato);
     border-image-slice: 1;
@@ -89,4 +97,16 @@ footer p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+header ul{
+    color: white;text-align: center;
+    
+}
+.header{
+    height: 130px;
+    border-top:5px solid;
+    border-image: linear-gradient(180deg, #5905f5,tomato);
+    border-image-slice: 1;
+    background-color: black;
+    align-items: right;
 }

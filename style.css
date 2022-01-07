@@ -98,15 +98,19 @@ footer h3{
     margin-left: 5%;
     padding-left: 2%;
 }
-header ul{
-    color: white;text-align: center;
-    
-}
+
 .header{
-    height: 130px;
+    height: 100 px;
     border-top:5px solid;
+    border-image: linear-gradient(180deg, #5905f5,tomato);
+    border-bottom:5px solid;
     border-image: linear-gradient(180deg, #5905f5,tomato);
     border-image-slice: 1;
     background-color: black;
-    align-items: right;
 }
+header h3
+{
+    color: white;text-align: center;
+}
+
+

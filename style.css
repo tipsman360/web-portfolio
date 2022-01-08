@@ -34,7 +34,8 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: 30;
+    width: 50px;
 }
 .middle-banner{
     background-image: url("images/dream-bg.png");
@@ -55,7 +56,7 @@ section{
 .single-experience{
     box-shadow: 10px 20px 40px grey;
     border-radius: 5px;
-    height: 40%;
+    height: 60%;
     
 }
 .single-experience h2{
@@ -72,6 +73,7 @@ section{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    display: inline-block;
 }
 #full-stac
 {
@@ -84,7 +86,6 @@ section{
     border-left:7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-
 }
 footer p{
     text-align: center;
@@ -104,6 +105,8 @@ footer h3{
     border-image: linear-gradient(180deg, #5905f5,tomato);
     border-image-slice: 1;
     background-color: black;
+    width: 100%;
+    display: flex;
 }
 
 .nav-footer{
@@ -158,5 +161,4 @@ textarea{
 }
 .sub{
     text-align: center;
- 
 }
